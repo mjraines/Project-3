@@ -1,39 +1,58 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Project 3: Cancer</title>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cancer Data</title>
+
+  <h1><center> Cancer Data </center> </div>   
+</h1> 
+
+<!-- D3 library -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<div id="map"></div>
+
+
+
+<!-- Our aos link to CSS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<!-- Our link to our CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css>
     
-    <!-- Leaflet JavaScript code -->
-    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-    crossorigin=""></script>
+</head>
+
+<body>
+
+<!-- Our JavaScript -->
+<script type="text/javascript" src="js/logic.js"></script>
+
+<!-- Our AOS JavaScript -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+<style>
+    body {
+      background-image: url('https://lh3.googleusercontent.com/xWhXRtYSWvIYy5aZyl6vcpGs801rZH1WYs46HcM0oIARHKd4XZgNf_1VWbKKEiIPwWGg3nWxQn7GpxedvNHTlLALIKPQkjqSWp8PLAZqDyPL2pZfPjDmcBE9BAcnmW_bXRH8UrJtHA=w2400?source=screenshot.guru');
+      background-repeat: no-repeat;
+  background-size: cover;
+    }
+    </style>
+   
     
-    <!-- D3 library -->
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <div class="box" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-quad">
+    <h2>Animated using <code>fade-up</code>.</h2></div>
 
-    <!-- Marker cluster JavaScript code -->
-    <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
+    <div class="item" data-aos="fade-up">1</div>
 
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
-    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-    crossorigin=""/>
 
-    <!-- Marker cluster CSS -->
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
+    </div>
+    <div class="item" data-aos="zoom-in">
+    
+    </div>
+</body>
 
-    <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
-
-  </head>
-  <body>
-
-    <div id="map"></div>
-
-    <!-- Our JavaScript -->
-    <script type="text/javascript" src="static/js/logic.js"></script>
-
-  </body>
 </html>
