@@ -1,0 +1,29 @@
+h1 {
+    font-size: 1000;
+    font: bold;
+    text-align: center;
+}
+
+.box {
+    width: 40%;
+    height: 200px;
+    background: black;
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    z-index: -1;
+    position:relative;
+  }
+  .item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: black;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+    z-index: -1;
+    position:relative;
+  }
