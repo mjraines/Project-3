@@ -1,0 +1,20 @@
+{
+  "name": "bower.json",
+  "description": "json for aos",
+  "main": "bower.json",
+  "authors": [
+    "mjraines <melissajoyraines@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mjraines/Project-3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
